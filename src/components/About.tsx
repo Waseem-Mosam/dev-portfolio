@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function About() {
 	return (
 		<section id="about" className="py-20 px-6 bg-gray-800 bg-opacity-50">
