@@ -56,8 +56,8 @@ export default function Skills() {
 
 					<div className="bg-gray-800 p-6 rounded-lg border border-gray-700">
 						<div className="flex items-center gap-3 mb-4">
-							<Server className="text-blue-400" size={24} />
-							<h3 className="font-mono text-lg text-blue-400">
+							<Server className="text-orange-400" size={24} />
+							<h3 className="font-mono text-lg text-orange-400">
 								Backend
 							</h3>
 						</div>

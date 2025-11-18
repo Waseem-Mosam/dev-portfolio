@@ -20,7 +20,7 @@ export default function Navigation({
 			<div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
 				<div className="flex items-center gap-2 font-mono text-green-400">
 					<Terminal size={20} />
-					<span className="hidden sm:inline">~/portfolio</span>
+					<span className="hidden sm:inline">~/wm-portfolio</span>
 				</div>
 
 				{/* Desktop Menu */}
