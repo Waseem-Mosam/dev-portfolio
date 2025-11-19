@@ -20,6 +20,7 @@ export const metadata: Metadata = {
 	title: "Waseem Mosam | Software Engineer",
 	description:
 		"Portfolio of Waseem Mosam — Full-Stack Software Developer specializing in modern web applications, scalable APIs, and cloud-ready solutions.",
+	metadataBase: new URL("https://wmosam.dev"),
 	manifest: "/site.webmanifest",
 	icons: {
 		icon: [
@@ -28,6 +29,40 @@ export const metadata: Metadata = {
 			{ url: "/favicon.ico", sizes: "any" },
 		],
 		apple: "/apple-touch-icon.png",
+	},
+	robots: {
+		index: true,
+		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			"max-image-preview": "large",
+			"max-snippet": -1,
+		},
+	},
+	openGraph: {
+		title: "Waseem Mosam | Software Engineer",
+		description:
+			"Portfolio of Waseem Mosam — Full-Stack Software Developer specializing in modern web applications, scalable APIs, and cloud-ready solutions.",
+		url: "https://wmosam.dev",
+		siteName: "Waseem Mosam Portfolio",
+		locale: "en_US",
+		type: "website",
+		images: [
+			{
+				url: "https://wmosam.dev/android-chrome-512x512.png",
+				width: 512,
+				height: 512,
+				alt: "Waseem Mosam Portfolio",
+			},
+		],
+	},
+	twitter: {
+		card: "summary_large_image",
+		title: "Waseem Mosam | Software Engineer",
+		description:
+			"Portfolio of Waseem Mosam — Full-Stack Software Developer specializing in modern web applications, scalable APIs, and cloud-ready solutions.",
+		images: ["https://wmosam.dev/android-chrome-512x512.png"],
 	},
 };
 
