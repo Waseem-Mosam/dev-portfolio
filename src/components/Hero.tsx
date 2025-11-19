@@ -21,9 +21,9 @@ export default function Hero({ typedText, scrollToSection }: HeroProps) {
 					<span className="animate-pulse">_</span>
 				</div>
 				<p className="text-lg text-gray-400 mb-8 max-w-2xl">
-					Building scalable systems and automating infrastructure.
-					Passionate about clean code, efficient pipelines, and
-					solving complex problems.
+					Building modern web applications with clean architecture.
+					Focused on scalable applications, smooth user experiences,
+					and efficient developer workflows.
 				</p>
 				<a
 					href="#contact"
