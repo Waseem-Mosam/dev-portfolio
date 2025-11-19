@@ -13,7 +13,7 @@ export default function Hero({ typedText, scrollToSection }: HeroProps) {
 		<section className="min-h-screen flex items-center justify-center px-6 pt-16">
 			<div className="max-w-4xl w-full">
 				<div className="font-mono text-green-400 mb-4">$ whoami</div>
-				<h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
+				<h1 className="text-5xl md:text-7xl font-bold mb-6 bg-linear-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
 					Waseem Mosam
 				</h1>
 				<div className="font-mono text-xl md:text-2xl text-gray-300 mb-8 h-8">

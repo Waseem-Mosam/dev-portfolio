@@ -8,7 +8,7 @@ export default function Contact() {
 					<span className="text-gray-500">$</span> contact --init
 				</h2>
 				<p className="text-gray-300 mb-8 text-lg">
-					Interested in working together? Let's connect!
+					Interested in working together? Let&apos;s connect!
 				</p>
 				<div className="flex justify-center gap-6">
 					<a
