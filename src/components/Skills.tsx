@@ -1,9 +1,26 @@
 import { Code, Server, Cloud, Database } from "lucide-react";
 
 const skills = {
-	languages: ["JavaScript", "TypeScript", "Python", "Java", "PHP"],
-	frameworks: ["Next.js", "React", "Express.js", "Node.js"],
-	backend: ["PostgreSQL", "Supabase", "REST APIs", "Prisma"],
+	languages: [
+		"JavaScript",
+		"TypeScript",
+		"Python",
+		"Java",
+		"PHP",
+		"C#",
+		"SQL",
+		"HTML",
+		"CSS",
+	],
+	frameworks: [
+		"Next.js",
+		"React",
+		"Express.js",
+		"Node.js",
+		"FastAPI",
+		"Django",
+	],
+	backend: ["PostgreSQL", "Supabase", "REST APIs", "Prisma", "Keycloak"],
 	cloud: ["GCP", "Firebase"],
 	tools: ["Git", "Linux", "Docker", "Postman", "TailwindCSS", "shadcn/ui"],
 };

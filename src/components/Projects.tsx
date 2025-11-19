@@ -1,11 +1,11 @@
 const projects = [
 	{
-		title: "Real Estate Listing Platform Rebuild",
+		title: "MG Properties - Real Estate Listing Platform",
 		description:
-			"Rebuilt a modern real estate website using Next.js and Supabase, including an admin dashboard for agents to create and manage property listings.",
+			"Built a modern real estate website using Next.js and Supabase, including an admin dashboard for agents to create and manage property listings.",
 		tech: ["Next.js", "Supabase", "PostgreSQL", "TailwindCSS", "shadcn/ui"],
 		github: "#",
-		demo: "#",
+		demo: "https://mgproperties.co.bw",
 	},
 ];
 
@@ -39,14 +39,15 @@ export default function Projects() {
 								))}
 							</div>
 							<div className="flex gap-4">
-								<a
+								{/* <a
 									href={project.github}
 									className="text-green-400 hover:text-green-300 font-mono text-sm"
 								>
 									[github]
-								</a>
+								</a> */}
 								<a
 									href={project.demo}
+									target="_blank"
 									className="text-blue-400 hover:text-blue-300 font-mono text-sm"
 								>
 									[demo]
