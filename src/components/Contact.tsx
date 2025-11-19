@@ -12,21 +12,23 @@ export default function Contact() {
 				</p>
 				<div className="flex justify-center gap-6">
 					<a
-						href="mailto:your.email@example.com"
+						href="mailto:waseem.mosam1@gmail.com"
 						className="flex items-center gap-2 bg-gray-800 border border-gray-700 px-6 py-3 rounded hover:border-green-400 transition-colors"
 					>
 						<Mail size={20} className="text-green-400" />
 						<span className="font-mono">Email</span>
 					</a>
 					<a
-						href="https://github.com/yourusername"
+						href="https://github.com/waseem-mosam"
+						target="_blank"
 						className="flex items-center gap-2 bg-gray-800 border border-gray-700 px-6 py-3 rounded hover:border-green-400 transition-colors"
 					>
 						<Github size={20} className="text-green-400" />
 						<span className="font-mono">GitHub</span>
 					</a>
 					<a
-						href="https://linkedin.com/in/yourusername"
+						href="https://linkedin.com/in/waseem-mosam"
+						target="_blank"
 						className="flex items-center gap-2 bg-gray-800 border border-gray-700 px-6 py-3 rounded hover:border-green-400 transition-colors"
 					>
 						<Linkedin size={20} className="text-green-400" />
