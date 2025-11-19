@@ -1,2 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+	--font-sans: var(--font-geist-sans);
+	--font-mono: var(--font-ibm-plex-mono);
+}
+
+/* Explicitly set font-family for mono to ensure IBM Plex Mono is applied */
+/* Using higher specificity to override Tailwind defaults */
+.font-mono,
+[class*="font-mono"] {
+	font-family: var(--font-ibm-plex-mono, "IBM Plex Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace) !important;
+}
+
+/* Ensure the font variable is available on the body */
+body {
+	font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}

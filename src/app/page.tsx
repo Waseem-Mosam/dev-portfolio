@@ -13,7 +13,7 @@ import Footer from "../components/Footer";
 export default function Portfolio() {
 	const [typedText, setTypedText] = useState("");
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-	const fullText = "Software Developer & DevOps Engineer";
+	const fullText = "Software Engineer";
 
 	useEffect(() => {
 		if (typedText.length < fullText.length) {

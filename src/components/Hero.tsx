@@ -16,7 +16,7 @@ export default function Hero({ typedText, scrollToSection }: HeroProps) {
 				<h1 className="text-5xl md:text-7xl font-bold mb-6 bg-linear-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
 					Waseem Mosam
 				</h1>
-				<div className="font-mono text-xl md:text-2xl text-gray-300 mb-8 h-8">
+				<div className="font-mono text-xl md:text-3xl text-gray-300 mb-8 h-8">
 					{typedText}
 					<span className="animate-pulse">_</span>
 				</div>
